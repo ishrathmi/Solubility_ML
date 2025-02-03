@@ -1,0 +1,22 @@
+[project]
+name = "solubility-ml"
+version = "0.1.0"
+description = "Solubility prediction"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "gauche>=0.1.6",
+    "gpytorch>=1.13",
+    "jupyter>=1.1.1",
+    "laplace-torch>=0.2.2.2",
+    "lightgbm>=4.5.0",
+    "matplotlib>=3.9.4",
+    "morfeus-ml>=0.7.2",
+    "networkx==3.*",
+    "numpy>=1.26.4",
+    "openpyxl>=3.1.5",
+    "pandas>=2.2.3",
+    "rdkit>=2024.9.4",
+    "scikit-learn>=1.6.1",
+    "seaborn>=0.13.2",
+]
