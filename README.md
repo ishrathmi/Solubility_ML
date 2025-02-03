@@ -4,8 +4,9 @@
 
 1. Install `uv`: <https://docs.astral.sh/uv/getting-started/installation/>
 2. Install dependencies: `uv sync`
-3. Activate virtualenv: `source .venv/bin/activate`
-4. Run Jupyter as usual, e.g.: `jupyter lab`
+3. Create virtualenv: `uv venv`
+4. Activate virtualenv: `source .venv/bin/activate`
+5. Run Jupyter as usual, e.g.: `jupyter lab`
 
 ## Data
 
